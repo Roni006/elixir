@@ -1,0 +1,108 @@
+@import url(../css/clash-display.css);
+
+:root {
+    --c-dark: #212529;
+    --c-brnad: #5e68d4;
+    --c-brnad-light: #6970dd;
+    --c-brand-rgb: 78, 87, 212;
+    --c-body: #727272;
+    --font-base: "ClashDisplay", sans-serif;
+    --box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
+    --transition: all 0.5s ease;
+    --white-color: #fff;
+}
+
+body {
+    font-family: var(--font-base);
+    line-height: 1.7;
+    color: var(--c-body);
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1 .h2 .h3 .h4 .h5 .h6 {
+    font-weight: 600;
+}
+
+a {
+
+    text-decoration: none;
+    color: var(--c-brnad);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--c-brnad-light);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding {
+    padding: 140px 0 140px 0;
+}
+
+
+/*HEADER SECTION START   */  
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: var(--c-dark); 
+    font-size: 18px; 
+    margin: 0 5px;
+}
+.navbar-nav .nav-link:hover{
+    color: var(--c-brnad);
+    transition: var(--transition);
+}
+.navbar-nav .nav-link.active {
+    color: var(--c-brnad);
+
+}
+
+/*button*/
+.btn {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--white-color);
+    border-color: var(--c-brnad-light);
+    padding: 14px 25px;
+    border-radius: 0;
+}
+
+.btn-brand{
+    background-color: var(--c-brnad);
+    color: var(--white-color);
+    border-color: var(--c-brnad-light);
+}
+.btn-brand:hover{
+    border-color: 2px solid var(--c-brnad-light);
+}
+/*HEADER SECTION END   */
+
+
+/*HERO SECTION START   */
+.hero-section{
+    background: linear-gradient(rgba(48, 112, 144, 0.57), rgba(0, 0, 0, 0.438)), url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-brand:hover{
+    border-color: var(--white-color);
+    color: var(--white-color);
+}
+.btn-light:hover{
+    background: transparent;
+    border-color: var(--c-brnad-light); 
+    color: var(--white-color) !important;
+}
+/*HERO SECTION END   */
+
+/* SECTION START   */
+/* SECTION END   */
