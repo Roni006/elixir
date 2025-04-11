@@ -41,8 +41,7 @@
 body {
     font-family: var(--font-base);
     line-height: 1.7;
-    color: var(--c-body);
-
+    color: var(--c-body); 
 }
 
 h1,
@@ -262,6 +261,26 @@ img {
    transform: rotate(45deg); 
 }
 /*REVIEW SECTION END   */
+
+/*TEAM SECTION START   */
+.team-member-content{
+    background-color: var(--c-brnad);
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    width: calc(100% - 50px);
+    transform: translate(-50%);
+    padding: 15px 25px;
+    transition: var(--transition);
+    opacity: 0; 
+    margin-bottom: 30px;
+}
+.team-member:hover .team-member-content{
+    opacity: 1; 
+    bottom: 0;
+    transition: var(--transition);
+}
+/*TEAM SECTION END   */
 
 /* SECTION START   */
 /* SECTION END   */
