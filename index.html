@@ -10,15 +10,17 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <!-- FANCYBOX CSS CND LINK  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <!-- ANIMATE ON SCROLL LINK  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- CSS LINK  -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Elixir Portfolio</title>
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- HEADER SECTION START  -->
-    <header class="header-section">
-        <nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm">
+    <header class="header-section sticky-top">
+        <nav class="navbar navbar-expand-lg bg-white  shadow-sm">
             <div class="container ">
                 <a class="navbar-brand" href="#">
                     <h1>Anik's Web</h1>
@@ -30,7 +32,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#home">Home</a>
+                            <a class="nav-link" href="#hero">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
@@ -63,16 +65,18 @@
     <!-- HEADER SECTION START  -->
 
 
-    <!--SERO SECTION START -->
-    <section class="hero-section min-vh-100 d-flex align-items-center text-center">
+    <!--HERO SECTION START -->
+    <section class="hero-section min-vh-100 d-flex align-items-center text-center" id="hero">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="hero-title text-uppercase fw-semibold display-1 text-white">Welcome to My Porfolio</h1>
-                    <p class="hero-para text-uppercase text-white ">We are team of talented desingers making websites
+                    <h1 class="hero-title text-uppercase fw-semibold display-1 text-white" data-aos="fade-left">Welcome
+                        to My Porfolio</h1>
+                    <p data-aos="fade-right" class="hero-para text-uppercase text-white "> We are team of talented
+                        desingers making websites
                         usings
                         bootstrap</p>
-                    <div class="hero-btn">
+                    <div class="hero-btn" data-aos="fade-up">
                         <a href="#" class="btn btn-brand me-2">Get Started</a>
                         <a href="#" class="btn btn-light text-black ms-2">Our Portfolio</a>
                     </div>
@@ -88,9 +92,10 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title text-center">
-                        <h1 class="display-3 fw-semibold">About</h1>
-                        <div class="line"></div>
-                        <p class="fs-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore beatae ipsum
+                        <h1 class="display-3 fw-semibold" data-aos="fade-left">About</h1>
+                        <div class="line" data-aos="fade-right" data-aos-delay="350"></div>
+                        <p class="fs-4" data-aos="fade-up" data-aos-delay="300">Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. Dolore beatae ipsum
                             odio sapiente!
                             Ex delectus est neque nihil repellat ullam odit nulla tenetur tempora reiciendis,</p>
                     </div>
@@ -98,12 +103,13 @@
             </div>
             <div class="row jsutify-content-center align-items-center">
                 <div class="col-lg-6 me-4">
-                    <img src="assets/images/author-img.jpeg" alt="author image">
+                    <img data-aos="fade-down" data-aos-delay="600" src="assets/images/author-img.jpeg"
+                        alt="author image">
                 </div>
-                <div class="col-lg-5 ms-4">
+                <div class="col-lg-5 ms-4" data-aos="fade-down" data-aos-delay="900">
                     <h1>About me</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor laboriosam pariatur aspernatu.</p>
-                    <div class="d-flex pt-5 ">
+                    <div class="d-flex pt-5 " data-aos="fade-left" data-aos-delay="1500">
                         <div class="icons me-4">
                             <i class="ri-mail-send-fill"></i>
                         </div>
@@ -112,7 +118,7 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, illum.</p>
                         </div>
                     </div>
-                    <div class="d-flex pt-3 ">
+                    <div class="d-flex pt-3 " data-aos="fade-left" data-aos-delay="1800">
                         <div class="icons me-4">
                             <i class="ri-mail-send-fill"></i>
                         </div>
@@ -121,7 +127,7 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, illum.</p>
                         </div>
                     </div>
-                    <div class="d-flex pt-3 ">
+                    <div class="d-flex pt-3 " data-aos="fade-left" data-aos-delay="2000">
                         <div class="icons me-4">
                             <i class="ri-mail-send-fill"></i>
                         </div>
@@ -138,21 +144,22 @@
     <!--ABOUT US SECTION END -->
 
     <!--SERVICES SECTION START -->
-    <section class="service-section section-padding">
+    <section class="service-section section-padding" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-title text-center">
-                        <h1 class="display-3 fw-semibold">Awesome Service</h1>
-                        <div class="line"></div>
-                        <p class="fs-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore beatae ipsum
+                        <h1 class="display-3 fw-semibold" data-aos="fade-left">Awesome Service</h1>
+                        <div class="line" data-aos="fade-left" data-aos-delay="200"></div>
+                        <p class="fs-4" data-aos="fade-left" data-aos-delay="500">Lorem ipsum, dolor sit amet
+                            consectetur adipisicing elit. Dolore beatae ipsum
                             odio sapiente!
                             Ex delectus est neque nihil repellat ullam odit nulla tenetur tempora reiciendis,</p>
                     </div>
                 </div>
             </div>
             <div class="row g-5 text-center ailng-items-center jsutify-content-center">
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="800">
                     <div class="services p-lg-5 p-4 theme-shadow">
                         <div class="icons">
                             <i class="ri-stack-fill"></i>
@@ -161,7 +168,7 @@
                         <p class="fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, at.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="1000">
                     <div class="services p-lg-5 p-4 theme-shadow">
                         <div class="icons">
                             <i class="ri-stack-fill"></i>
@@ -170,7 +177,7 @@
                         <p class="fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, at.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="1200">
                     <div class="services p-lg-5 p-4 theme-shadow">
                         <div class="icons">
                             <i class="ri-stack-fill"></i>
@@ -179,7 +186,7 @@
                         <p class="fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, at.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="1400">
                     <div class="services p-lg-5 p-4 theme-shadow">
                         <div class="icons">
                             <i class="ri-stack-fill"></i>
@@ -188,7 +195,7 @@
                         <p class="fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, at.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="1600">
                     <div class="services p-lg-5 p-4 theme-shadow">
                         <div class="icons">
                             <i class="ri-stack-fill"></i>
@@ -197,7 +204,7 @@
                         <p class="fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, at.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="1800">
                     <div class="services p-lg-5 p-4 theme-shadow">
                         <div class="icons">
                             <i class="ri-stack-fill"></i>
@@ -215,19 +222,19 @@
     <section class="counter-section section-padding">
         <div class="contaner">
             <div class="row text-center">
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="500">
                     <h1 class="text-white display-4 ">90,000+</h1>
                     <h6 class="text-white text-uppercase mt-3">Total Downloads</h6>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="700">
                     <h1 class="text-white display-4">90,000+</h1>
                     <h6 class="text-white text-uppercase mt-3">Total Downloads</h6>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="800">
                     <h1 class="text-white display-4">90,000+</h1>
                     <h6 class="text-white text-uppercase mt-3">Total Downloads</h6>
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="1000">
                     <h1 class="text-white display-4">90,000+</h1>
                     <h6 class="text-white text-uppercase mt-3">Total Downloads</h6>
                 </div>
@@ -237,14 +244,15 @@
     <!--COUNTER SECTION END -->
 
     <!--PORTFOLIO SECTION START -->
-    <section class="portfolio-section section-padding">
+    <section class="portfolio-section section-padding" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-title text-center">
-                        <h1 class="display-3 fw-semibold">Portfolio</h1>
-                        <div class="line"></div>
-                        <p class="fs-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore beatae ipsum
+                        <h1 class="display-3 fw-semibold" data-aos="fade-left" data-aos-delay="300"> Portfolio</h1>
+                        <div class="line" data-aos="fade-right" data-aos-delay="500"></div>
+                        <p class="fs-4" data-aos="fade-down" data-aos-delay="1000"> Lorem ipsum, dolor sit amet
+                            consectetur adipisicing elit. Dolore beatae ipsum
                             odio sapiente!
                             Ex delectus est neque nihil repellat ullam odit nulla tenetur tempora reiciendis,</p>
                     </div>
@@ -253,7 +261,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="portfolio-item image-zoom">
-                        <div class="image-zoom-wrapper">
+                        <div class="image-zoom-wrapper" data-aos="zoom-in" data-aos-delay="1400">
                             <img src="assets/images/portfolio/portfolio-1.jpg" alt="Portfolio image">
                         </div>
                         <a href="assets/images/portfolio/portfolio-1.jpg" data-fancybox="gallery" class="icons">
@@ -262,7 +270,8 @@
                     </div>
 
                     <div class="portfolio-item image-zoom mt-4">
-                        <div class="image-zoom-wrapper">
+                        <div data-aos="zoom-in" data-aos-delay="1800" class="image-zoom-wrapper" data-aos="zoom-in"
+                            data-aos-delay="1600">
                             <img src="assets/images/portfolio/portfolio-2.jpg" alt="Portfolio image">
                         </div>
                         <a href="assets/images/portfolio/portfolio-2.jpg" data-fancybox="gallery" class="icons">
@@ -273,7 +282,7 @@
 
                 <div class="col-md-4">
                     <div class="portfolio-item image-zoom">
-                        <div class="image-zoom-wrapper">
+                        <div data-aos="zoom-in" data-aos-delay="2000" class="image-zoom-wrapper">
                             <img src="assets/images/portfolio/portfolio-3.png" alt="Portfolio image">
                         </div>
                         <a href="assets/images/portfolio/portfolio-3.png" data-fancybox="gallery" class="icons">
@@ -282,7 +291,7 @@
                     </div>
 
                     <div class="portfolio-item image-zoom mt-4">
-                        <div class="image-zoom-wrapper">
+                        <div data-aos="zoom-in" data-aos-delay="2200" class="image-zoom-wrapper">
                             <img src="assets/images/portfolio/portfolio4-.png" alt="Portfolio image">
                         </div>
                         <a href="assets/images/portfolio/portfolio4-.png" data-fancybox="gallery" class="icons">
@@ -293,7 +302,7 @@
 
                 <div class="col-md-4">
                     <div class="portfolio-item image-zoom">
-                        <div class="image-zoom-wrapper">
+                        <div data-aos="zoom-in" data-aos-delay="2400" class="image-zoom-wrapper">
                             <img src="assets/images/portfolio/portfolio-5.png" alt="Portfolio image">
                         </div>
                         <a href="assets/images/portfolio/portfolio-5.png" data-fancybox="gallery" class="icons">
@@ -302,7 +311,7 @@
                     </div>
 
                     <div class="portfolio-item image-zoom mt-4">
-                        <div class="image-zoom-wrapper">
+                        <div data-aos="zoom-in" data-aos-delay="2600" class="image-zoom-wrapper">
                             <img src="assets/images/portfolio/portfolio-2.jpg" alt="Portfolio image">
                         </div>
                         <a href="assets/images/portfolio/portfolio-2.jpg" data-fancybox="gallery" class="icons">
@@ -317,7 +326,7 @@
     <!--PORTFOLIO SECTION END -->
 
     <!--TESTIMONIAL SECTION START -->
-    <section class="testimonial-section section-padding">
+    <section class="testimonial-section section-padding" id="reviews">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -633,7 +642,7 @@
     <footer class="footer-section  bg-dark">
         <div class="footer-top">
             <div class="container">
-                <div class="row gy-5 " > 
+                <div class="row gy-5 ">
                     <div class="col-lg-4 col-sm-6">
                         <a href="index.html">
                             <h2 class="text-white">Anik's Web</h2>
@@ -680,7 +689,7 @@
                         <ul>
                             <li><a href="#">New York, NY 3300</a></li>
                             <li><a href="#">(414)586-3017</a></li>
-                            <li><a href="#">www.example.com</a></li> 
+                            <li><a href="#">www.example.com</a></li>
                         </ul>
 
                     </div>
@@ -695,7 +704,8 @@
                         <p class="text-white">&copyCopy Right Elixir. All right reserve</p>
                     </div>
                     <div class="col-auto">
-                        <p class="text-white">Designed By <a href="https://anikxpert.creativecanvasit.com/" target="_blank"> Anik</a></p>
+                        <p class="text-white">Designed By <a href="https://anikxpert.creativecanvasit.com/"
+                                target="_blank"> Anik</a></p>
                     </div>
                 </div>
             </div>
@@ -705,7 +715,11 @@
     <!--FOOTER SECTION END -->
 
 
-
+    <!-- ANIMATE ON SCROLL JS LINK  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- BOOTSTARP JS CDN  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"></script>
     <!-- FANCY BOX JS CDN LINK -->
