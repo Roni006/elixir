@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- CSS LINK  -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <title>Elixir Portfolio</title>
 </head>
 
@@ -56,7 +57,7 @@
                             <a class="nav-link" href="#blog">Blog</a>
                         </li>
                     </ul>
-                    <a href="#" class="btn btn-brand ms-lg-4 text-dark">Download</a>
+                    <a href="#" class="btn btn-brand ms-lg-4" id="nav-btn">Download</a>
 
                 </div>
             </div>
@@ -94,7 +95,7 @@
                     <div class="section-title text-center">
                         <h1 class="display-3 fw-semibold" data-aos="fade-left">About</h1>
                         <div class="line" data-aos="fade-right" data-aos-delay="350"></div>
-                        <p class="fs-4" data-aos="fade-up" data-aos-delay="300">Lorem ipsum, dolor sit amet consectetur
+                        <p class="fs-4 a-para" data-aos="fade-up" data-aos-delay="300">Lorem ipsum, dolor sit amet consectetur
                             adipisicing elit. Dolore beatae ipsum
                             odio sapiente!
                             Ex delectus est neque nihil repellat ullam odit nulla tenetur tempora reiciendis,</p>
@@ -106,7 +107,7 @@
                     <img data-aos="fade-down" data-aos-delay="600" src="assets/images/author-img.jpeg"
                         alt="author image">
                 </div>
-                <div class="col-lg-5 ms-4" data-aos="fade-down" data-aos-delay="900">
+                <div class="col-lg-5 ms-4 about-title" data-aos="fade-down" data-aos-delay="900">
                     <h1>About me</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor laboriosam pariatur aspernatu.</p>
                     <div class="d-flex pt-5 " data-aos="fade-left" data-aos-delay="1500">
@@ -151,7 +152,7 @@
                     <div class="section-title text-center">
                         <h1 class="display-3 fw-semibold" data-aos="fade-left">Awesome Service</h1>
                         <div class="line" data-aos="fade-left" data-aos-delay="200"></div>
-                        <p class="fs-4" data-aos="fade-left" data-aos-delay="500">Lorem ipsum, dolor sit amet
+                        <p class="fs-4 service-para" data-aos="fade-left" data-aos-delay="500">Lorem ipsum, dolor sit amet
                             consectetur adipisicing elit. Dolore beatae ipsum
                             odio sapiente!
                             Ex delectus est neque nihil repellat ullam odit nulla tenetur tempora reiciendis,</p>
@@ -221,7 +222,7 @@
     <!--COUNTER SECTION START -->
     <section class="counter-section section-padding">
         <div class="contaner">
-            <div class="row text-center">
+            <div class="row text-center counter">
                 <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="500">
                     <h1 class="text-white display-4 ">90,000+</h1>
                     <h6 class="text-white text-uppercase mt-3">Total Downloads</h6>
@@ -251,7 +252,7 @@
                     <div class="section-title text-center">
                         <h1 class="display-3 fw-semibold" data-aos="fade-left" data-aos-delay="300"> Portfolio</h1>
                         <div class="line" data-aos="fade-right" data-aos-delay="500"></div>
-                        <p class="fs-4" data-aos="fade-down" data-aos-delay="1000"> Lorem ipsum, dolor sit amet
+                        <p class="fs-4 p-para" data-aos="fade-down" data-aos-delay="1000"> Lorem ipsum, dolor sit amet
                             consectetur adipisicing elit. Dolore beatae ipsum
                             odio sapiente!
                             Ex delectus est neque nihil repellat ullam odit nulla tenetur tempora reiciendis,</p>
@@ -331,9 +332,11 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title text-center">
-                        <h1 class="display-3 fw-semibold">Testimonial</h1>
-                        <div class="line"></div>
-                        <p class="fs-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore beatae ipsum
+                        <h1 class="display-3 fw-semibold" data-aos="fade-left" data-aos-delay="300">Testimonial</h1>
+                        <div class="line" data-aos="fade-right" data-aos-delay="500"></div>
+                        <p class="fs-4 tes-para" data-aos="fade-down" data-aos-delay="1000"> data-aos="fade-down"
+                            data-aos-delay="1000"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore beatae
+                            ipsum
                             odio sapiente!
                             Ex delectus est neque nihil repellat ullam odit nulla tenetur tempora reiciendis,</p>
                     </div>
@@ -342,7 +345,7 @@
             <div class="row gy-5 gx-4">
                 <div class="col-lg-4 col-md-6">
                     <div class="riview">
-                        <div class="review-head p-4  shadow">
+                        <div class="review-head p-4 shadow" data-aos="fade-right" data-aos-delay="1400">
                             <div class="text-warning">
                                 <i class="ri-star-fill"></i>
                                 <i class="ri-star-fill"></i>
@@ -354,7 +357,7 @@
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore beatae ipsum odio
                                 sapiente! Ex delectus est neque</p>
                         </div>
-                        <div class="person d-flex aling-items-center mt-4 ">
+                        <div class="person d-flex aling-items-center mt-4 " data-aos="zoom-in" data-aos-delay="1800">
                             <img src="assets/images/review/ewview-1.png" alt="">
                             <div class="ms-4">
                                 <h5>Rakib Aprean</h5>
@@ -366,7 +369,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="riview">
-                        <div class="review-head p-4  shadow">
+                        <div class="review-head p-4  shadow" data-aos="fade-right" data-aos-delay="1600">
                             <div class="text-warning">
                                 <i class="ri-star-fill"></i>
                                 <i class="ri-star-fill"></i>
@@ -378,7 +381,7 @@
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore beatae ipsum odio
                                 sapiente! Ex delectus est neque</p>
                         </div>
-                        <div class="person d-flex aling-items-center mt-4 ">
+                        <div class="person d-flex aling-items-center mt-4 " data-aos="zoom-in" data-aos-delay="2000">
                             <img src="assets/images/review/ewview-2.png" alt="">
                             <div class="ms-4">
                                 <h5>Moshir Rhaman</h5>
@@ -390,7 +393,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="riview">
-                        <div class="review-head p-4  shadow">
+                        <div class="review-head p-4  shadow" data-aos="fade-right" data-aos-delay="1800">
                             <div class="text-warning">
                                 <i class="ri-star-fill"></i>
                                 <i class="ri-star-fill"></i>
@@ -402,7 +405,7 @@
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore beatae ipsum odio
                                 sapiente! Ex delectus est neque</p>
                         </div>
-                        <div class="person d-flex aling-items-center mt-4 ">
+                        <div class="person d-flex aling-items-center mt-4 " data-aos="zoom-in" data-aos-delay="2200">
                             <img src="assets/images/review/ewview-3.png" alt="">
                             <div class="ms-4">
                                 <h5>Ekbal Hossen</h5>
@@ -414,7 +417,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="riview">
-                        <div class="review-head p-4  shadow">
+                        <div class="review-head p-4  shadow" data-aos="fade-right" data-aos-delay="2200">
                             <div class="text-warning">
                                 <i class="ri-star-fill"></i>
                                 <i class="ri-star-fill"></i>
@@ -426,7 +429,7 @@
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore beatae ipsum odio
                                 sapiente! Ex delectus est neque</p>
                         </div>
-                        <div class="person d-flex aling-items-center mt-4 ">
+                        <div class="person d-flex aling-items-center mt-4 " data-aos="zoom-in" data-aos-delay="2400">
                             <img class="rounded-circle" src="assets/images/review/Employee-05-1.jpg" alt="">
                             <div class="ms-4">
                                 <h5>Samual</h5>
@@ -438,7 +441,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="riview">
-                        <div class="review-head p-4  shadow">
+                        <div class="review-head p-4  shadow" data-aos="fade-right" data-aos-delay="2600">
                             <div class="text-warning">
                                 <i class="ri-star-fill"></i>
                                 <i class="ri-star-fill"></i>
@@ -450,7 +453,7 @@
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore beatae ipsum odio
                                 sapiente! Ex delectus est neque</p>
                         </div>
-                        <div class="person d-flex aling-items-center mt-4 ">
+                        <div class="person d-flex aling-items-center mt-4 " data-aos="zoom-in" data-aos-delay="2800">
                             <img class="rounded-circle" src="assets/images/review/Employee-08-1.jpg" alt="">
                             <div class="ms-4">
                                 <h5>John</h5>
@@ -462,7 +465,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="riview">
-                        <div class="review-head p-4  shadow">
+                        <div class="review-head p-4  shadow" data-aos="fade-right" data-aos-delay="2800">
                             <div class="text-warning">
                                 <i class="ri-star-fill"></i>
                                 <i class="ri-star-fill"></i>
@@ -474,7 +477,7 @@
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore beatae ipsum odio
                                 sapiente! Ex delectus est neque</p>
                         </div>
-                        <div class="person d-flex aling-items-center mt-4 ">
+                        <div class="person d-flex aling-items-center mt-4 " data-aos="zoom-in" data-aos-delay="3000">
                             <img class="rounded-circle" src="assets/images/review/Employee-09-1.jpg " alt="">
                             <div class="ms-4">
                                 <h5>Michela</h5>
@@ -494,16 +497,18 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title text-center">
-                        <h1 class="display-3 fw-semibold">Our Team</h1>
-                        <div class="line"></div>
-                        <p class="fs-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore beatae ipsum
+                        <h1 class="display-3 fw-semibold" data-aos="fade-left" data-aos-delay="300">Our Team</h1>
+                        <div class="line" data-aos="fade-right" data-aos-delay="500"></div>
+                        <p class="fs-4 t-para" data-aos="fade-down" data-aos-delay="1000">Lorem ipsum, dolor sit amet
+                            consectetur adipisicing elit. Dolore beatae ipsum
                             odio sapiente!
                             Ex delectus est neque nihil repellat ullam odit nulla tenetur tempora reiciendis,</p>
                     </div>
                 </div>
             </div>
+
             <div class="row text-center g-4">
-                <div class="col-md-4 ">
+                <div class="col-md-4 " data-aos="zoom-in" data-aos-delay="1400">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
                             <img src="assets/images/team/tm-1.jpg" alt="team member image">
@@ -515,7 +520,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 ">
+                <div class="col-md-4 " data-aos="zoom-in" data-aos-delay="1600">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
                             <img src="assets/images/team/tm-2.jpg" alt="team member image">
@@ -527,7 +532,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 ">
+                <div class="col-md-4 " data-aos="zoom-in" data-aos-delay="1800">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
                             <img src="assets/images/team/tm-3.jpg" alt="team member image">
@@ -549,18 +554,20 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title text-center">
-                        <h1 class="display-3 fw-semibold text-white">Our Team</h1>
-                        <div class="line bg-white"></div>
-                        <p class="fs-4 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+                        <h1 class="display-3 fw-semibold text-white" data-aos="fade-left" data-aos-delay="300">CONTACT
+                        </h1>
+                        <div class="line " data-aos="fade-right" data-aos-delay="500"></div>
+                        <p class="fs-4 text-white c-para" data-aos="fade-down" data-aos-delay="1000">Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Dolore
                             beatae ipsum
                             odio sapiente!
                             Ex delectus est neque nihil repellat ullam odit nulla tenetur tempora reiciendis,</p>
                     </div>
                 </div>
             </div>
-            <div class="row jsutify-content-center">
-                <div class="col-lg-12">
-                    <form action="#" class="row g-3 bg-white P-lg-5 p-4 shadow">
+            <div class="row jsutify-content-center" data-aos="zoom-in" data-aos-delay="1500" >
+                <div class="col-lg-12" >
+                    <form action="#" class="row g-3 bg-white P-lg-5 p-4 shadow" >
                         <div class="form-group col-lg-6">
                             <input type="text" class="form-control " placeholder="Your first Name">
                         </div>
@@ -593,9 +600,10 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title text-center">
-                        <h1 class="display-3 fw-semibold">Our Blog</h1>
-                        <div class="line"></div>
-                        <p class="fs-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore beatae ipsum
+                        <h1 class="display-3 fw-semibold" data-aos="fade-left" data-aos-delay="300">Our Blog</h1>
+                        <div class="line" data-aos="fade-right" data-aos-delay="500"></div>
+                        <p class="fs-4 b-para" data-aos="fade-down" data-aos-delay="1000"> Lorem ipsum, dolor sit amet
+                            consectetur adipisicing elit. Dolore beatae ipsum
                             odio sapiente!
                             Ex delectus est neque nihil repellat ullam odit nulla tenetur tempora reiciendis,</p>
                     </div>
@@ -603,7 +611,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="1400">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
                             <img src="assets/images/blog/blog-1.png" alt="">
@@ -613,7 +621,7 @@
                         <a href="#">Read More</a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="1600">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
                             <img src="assets/images/blog/blog-2.png" alt="">
@@ -623,7 +631,7 @@
                         <a href="#">Read More</a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="1800">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
                             <img src="assets/images/blog/blog-2.png" alt="">

@@ -1,0 +1,49 @@
+@media(max-width: 992px) {
+    .about-title {
+        margin-top: 20px;
+    }
+}
+
+.section-title .a-para {
+    text-align: justify;
+    font-size: 100px;
+}
+
+.service-para {
+    text-align: justify;
+}
+
+.counter {
+    flex-direction: row;
+    row-gap: 30px;
+}
+
+.p-para,
+.tes-para,
+.t-para,
+.b-para,
+.c-para {
+    text-align: justify;
+}
+
+
+@media(max-width: 575px) {
+    .form{
+        padding: 0 800px;
+    }
+}
+
+@media(max-width: 390px) {
+        .hero-btn {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            row-gap: 15px;
+        }
+
+        .hero-section {
+
+            height: 100%;
+        }
+    }

@@ -43,7 +43,7 @@
 body {
     font-family: var(--font-base);
     line-height: 1.7;
-    color: var(--c-body);
+    color: var(--c-body); 
 }
 
 h1,
@@ -122,6 +122,9 @@ img {
     border-color: var(--c-brnad-light) !important;
 }
 
+#nav-btn:hover{
+    color: var(--c-dark) !important;
+}
 /*HEADER SECTION END   */
 
 
@@ -130,6 +133,7 @@ img {
     background: linear-gradient(rgba(48, 112, 144, 0.57), rgba(0, 0, 0, 0.438)), url(../images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .btn-brand:hover {
@@ -146,9 +150,12 @@ img {
 /*HERO SECTION END   */
 
 /*ABOUT SECTION START   */
-
+.about{
+    overflow: hidden;
+}
 .section-title {
     margin-bottom: 40px;
+
 }
 
 .section-title .line {
@@ -181,6 +188,9 @@ img {
 /*ABOUT SECTION END   */
 
 /*SERVIES SECTION START   */
+.service-section{
+    overflow: hidden;
+}
 .services {
     position: relative;
     overflow: hidden;
@@ -229,6 +239,9 @@ img {
 /*COUNTER   SECTION END   */
 
 /*PORTFOLIO SECTION START   */
+.portfolio-section{
+    overflow: hidden;
+}
 .portfolio-item .icons {
     position: absolute;
     left: 50%;
@@ -248,6 +261,9 @@ img {
 /*PORTFOLIO SECTION END   */
 
 /*REVIEW SECTION START   */
+.testimonial-section { 
+    overflow: hidden;
+}
 .person img {
     width: 80px;
     height: 85px;
@@ -270,6 +286,9 @@ img {
 /*REVIEW SECTION END   */
 
 /*TEAM SECTION START   */
+.team-section{
+    overflow: hidden;
+}
 .team-member-content {
     background-color: var(--c-brnad);
     position: absolute;
@@ -295,6 +314,7 @@ img {
 .contact-section {
     position: relative;
     z-index: 2;
+    overflow: hidden;
 }
 
 .contact-section::after {
@@ -318,7 +338,18 @@ img {
 
 /*CONTACT SECTION END   */
 
+/*BLOG SECTION END   */
+.blog-section{
+    overflow: hidden;
+}
+/*BLOG SECTION END   */
+
+
+
 /*FOOTER SECTION START   */
+.footer-section{
+    overflow: hidden;
+}
 footer{
     padding-top: 100px;
 }
